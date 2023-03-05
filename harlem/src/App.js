@@ -1,9 +1,20 @@
 import './App.css';
+import Cerrado from './components/Cerrado/Cerrado'
+import Abierto from './components/Abierto/Abierto';
 
 function App() {
+  let dia = new Date()
+  console.log(dia);
+  let hora = dia.getHours()
+  console.log(dia.getHours());
   return (
     <div className="App">
-        <img src='https://menu.harlemburgas.com.ar/assets/img/logo.png?v=2' alt='harlem'/>
+      {
+        (hora >= 19 && hora <24)
+        ?<Abierto/>
+        :<Cerrado/>
+      }
+
     </div>
   );
 }

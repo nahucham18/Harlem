@@ -1,0 +1,35 @@
+.container{
+    margin: 2rem auto;
+    width: 80%;
+    
+    
+}
+
+hr{
+    width: 95%;
+    opacity: .2;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight:400;
+}
+
+p{
+    font-weight:600;
+    font-size: 1.2rem;
+    opacity: .7;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
