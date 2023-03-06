@@ -7,6 +7,10 @@
     box-shadow: 3px 3px 20px 0.8px  grey;
 }
 
+.container:hover{
+    cursor: pointer;
+}
+
 h2{
     font-weight: 700;
     opacity: 0.6;
@@ -17,3 +21,4 @@ p{
     font-size: 1rem;
     font-weight: 400;
 }
+
