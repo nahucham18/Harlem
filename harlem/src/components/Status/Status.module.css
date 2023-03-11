@@ -1,38 +1,50 @@
 .container{
-    margin: 2rem auto;
-    width: 80%;
-    border: 1px solid black;
+    box-sizing:border-box;
+    margin: 1.6rem auto;
+    width: 1100px;
+    
     background-color: white;
-    box-shadow: 2px 2px 20px  0.8px rgb(37, 37, 37);
+    box-shadow: 6px 6px 20px  0.8px rgb(37, 37, 37);
     
     
 }
 
 hr{
+    margin: 0;
     width: 95%;
-    opacity: .2;
+    opacity: .1;
 }
 
-h2{
-    margin-top: 0;
+.section{
+    padding: 0.8rem;
+    border: none;
+    width: fit-content;
     font-size: 2rem;
     font-weight:400;
+    color: black;
+    opacity: 1;
+    margin: 0 auto;
 }
 
-p{
+.sub_section{
     font-weight:600;
     font-size: 1.2rem;
-    opacity: .7;
+    opacity: .5;
 }
 
 .btn{
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
     color: white;
     background-color: black;
     border: none;
-    padding: 0.8rem;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
 }
+

@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.option{
+    font-size: 1.2rem;
+    color: black;
+    opacity: 1;
+    border: none;
+    width: fit-content;
+}

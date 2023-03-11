@@ -2,6 +2,7 @@ import Menu from "../Menu/Menu"
 import Promociones from "../Promociones/Promociones"
 import EstadoPedido from "../EstadoPedido/EstadoPedido"
 import style from './Abierto.module.css'
+import { Link } from 'react-router-dom'
 
 
 const Abierto = ()=>{
@@ -12,7 +13,9 @@ const Abierto = ()=>{
             <hr />
             <div className={style.container_home}></div>
             <img src="" alt="" />
-            <Menu />
+            <Link to={`/menu`}>
+                <Menu />
+            </Link>
             <Promociones/>
             <EstadoPedido/>
         </div>
