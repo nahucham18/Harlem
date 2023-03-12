@@ -1,4 +1,4 @@
-import Menu from "../Menu/Menu"
+import Menu from "../../views/Menu/Menu"
 import Promociones from "../Promociones/Promociones"
 import EstadoPedido from "../EstadoPedido/EstadoPedido"
 import style from './Abierto.module.css'

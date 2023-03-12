@@ -1,5 +1,5 @@
-import MenuOption from '../MenuOption/MenuOption'
-import dataMenuOption from '../MenuOption/dataMenuOption'
+import MenuOption from '../../components/MenuOption/MenuOption'
+import dataMenuOption from '../../components/MenuOption/dataMenuOption'
 import style from './Menu.module.css'
 
 
@@ -11,6 +11,7 @@ const Menu = () =>{
                 dataMenuOption.map((option)=>{
                     return(
                         <MenuOption 
+                                key={option.id}
                                 id={option.id}
                                 option={option.option}
                                 description={option.description}

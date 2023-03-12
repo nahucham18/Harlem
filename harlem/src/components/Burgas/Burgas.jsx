@@ -5,7 +5,7 @@ const Burgas = () => {
     return (
         <div>
             {
-                data.map((burgar) => {
+                data.map( burgar => {
                     <Burga
                         name={burgar.name}
                         ingrdientes={burgar.ingredientes}
