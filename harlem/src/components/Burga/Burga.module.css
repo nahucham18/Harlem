@@ -1,0 +1,41 @@
+.container  {
+    margin: 1rem auto;
+    width: 1075px;
+    
+    display: flex;
+    border: 1px solid black;
+    padding: 1.2rem 0.6rem 1.2rem 1.2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.image {
+    width: 40%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.right{
+    width: 60%;
+    
+    
+}
+.name, .ingredientes, .price{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.ingredientes{
+    text-align: start;
+    font-size: 0.8rem;
+    font-weight:lighter;
+    margin: 0.4rem 0;
+}

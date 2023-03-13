@@ -1,0 +1,16 @@
+.divMenu{
+    display: flex;
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.menu{
+    font-weight: bolder;
+    opacity: 0.5;
+    font-size: 1.6rem;
+    margin: 0;
+}
