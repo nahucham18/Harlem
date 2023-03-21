@@ -1,10 +1,12 @@
 .container{
     box-sizing:border-box;
-    margin: 1.6rem auto;
-    width: 1100px;
     
-    background-color: white;
+    width: 100%;
+    
+    background-color: rgb(19, 19, 19);
     box-shadow: 6px 6px 20px  0.8px rgb(37, 37, 37);
+    color: #fff;
+    height: 70vh;
     
     
 }
@@ -15,36 +17,45 @@ hr{
     opacity: .1;
 }
 
+.option{
+    box-sizing: border-box;
+    border: 5px solid #E5BD1A;
+    background-color: #5B0002;
+    padding: 1rem 0.4rem;
+    border-radius: 1rem;
+    width: 50%;
+    max-width: 150px;
+    margin: 1rem auto;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
 .section{
-    padding: 0.8rem;
     border: none;
+    font-size: 0.8rem;
     width: fit-content;
-    font-size: 2rem;
-    font-weight:400;
-    color: black;
+    padding: 0;
+    color: #fff;
     opacity: 1;
     margin: 0 auto;
+    
 }
 
 .sub_section{
     font-weight:600;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     opacity: .5;
 }
 
 .btn{
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 2rem;
     cursor: pointer;
     color: white;
-    background-color: black;
+    background-color: #5B0002;
     border: none;
-    padding: 0.6rem 0.8rem;
-    margin-bottom: 1.6rem;
-    border-radius: 0.2rem;
-    -webkit-border-radius: 0.2rem;
-    -moz-border-radius: 0.2rem;
-    -ms-border-radius: 0.2rem;
-    -o-border-radius: 0.2rem;
+    margin-top: 1rem;
+    
 }
 
