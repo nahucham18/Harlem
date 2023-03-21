@@ -14,7 +14,7 @@ const Home = () =>{
         return (
         <div>
             {
-                hora > 19 && hora < 2
+                hora > 20 
                 ?<Abierto/>
                 :<Cerrado/>
             }

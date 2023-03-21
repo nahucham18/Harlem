@@ -9,8 +9,7 @@ const Abierto = ()=>{
     return (
         <div className={style.container}>
             
-            <img className={style.logo} src='https://menu.harlemburgas.com.ar/assets/img/logo.png?v=2' alt='harlem'/>
-            <hr />
+           
             <div className={style.container_home}></div>
             <img src="" alt="" />
             <Link to={`/menu`}>

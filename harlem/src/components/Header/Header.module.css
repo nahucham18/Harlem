@@ -2,10 +2,12 @@
 
 .logo{
     width: 265px;
-    
+    margin-top: 4rem;
     }
 
 .container{
+    
+    height: 100vh;
     padding:0.8rem 0 1.7rem 0 ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     
