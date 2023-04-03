@@ -1,36 +1,38 @@
 .container{
     box-sizing:border-box;
-    
     width: 100%;
-    
     background-color: rgb(19, 19, 19);
-    box-shadow: 6px 6px 20px  0.8px rgb(37, 37, 37);
     color: #fff;
-    
-    
+    padding: 0 0 2rem;
+
 }
 
-.option{
+.divOptions{
+    
     box-sizing: border-box;
-    width: 50%;
-    padding: 1rem 0.4rem;
-    max-width: 150px;
-    margin: 1rem auto;
+    width: 80%;
+    min-width: 220px;
+    text-align: center;
+    padding: 0.4rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.option{
+    padding: 0 0.4rem;
+    max-width: 100px;
 }
 
 .section{
-    border: none;
     font-size: 0.8rem;
-    width: fit-content;
-    padding: 0;
     color: #E5BD1A;
-    opacity: 1;
     margin: 0 auto;
-    
 }
 
 .enlace{
     text-decoration: none;
+    margin: 1.1rem;
 }
 
 .btn{
@@ -38,7 +40,14 @@
     cursor: pointer;
     background-color: transparent;
     color: #E5BD1A;
-    padding:0.4rem 1rem 0.2rem;
+    
     border: none;
-    margin-top: 1rem;
+}
+
+
+.option:hover  .btn{
+    color: #ffe98f;
+}
+.option:hover .section{
+    color: #ffe98f;
 }

@@ -2,14 +2,15 @@
 
 .logo{
     width: 265px;
-    margin-top: 4rem;
+    margin-top: 1rem;
     }
 
 .container{
-    height: 100vh;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #4A4A4A;
+    height: 90vh;
+    min-height: 490px;
+    background-color: #131313;
 }
+
 
     /* .container{
         padding: 0.8rem 0 1.7rem 0; 
