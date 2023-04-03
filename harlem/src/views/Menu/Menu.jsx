@@ -6,7 +6,9 @@ import style from './Menu.module.css'
 const Menu = () =>{
     return (
         <div className={style.container}>
-            <h2>MENÚ</h2>
+
+            <h2 className={style.title}>MENÚ</h2>
+            <div className={style.divOptions}>
             {
                 dataMenuOption.map((option)=>{
                     return(
@@ -16,9 +18,9 @@ const Menu = () =>{
                                 option={option.option}
                                 description={option.description}
                                     />
-                    )
-                })
+                )})
             }
+            </div>
         </div>
     )
 }
